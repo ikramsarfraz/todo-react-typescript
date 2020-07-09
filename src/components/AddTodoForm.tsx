@@ -19,14 +19,12 @@ const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
 
   return (
     <form>
-      <div>
-        <input
-          type="text"
-          placeholder="Enter Todo..."
-          value={newTodo}
-          onChange={handleChange}
-        />
-      </div>
+      <input
+        type="text"
+        placeholder="Enter Todo..."
+        value={newTodo}
+        onChange={handleChange}
+      />
       <button type="submit" onClick={handleSubmit}>
         +
       </button>
