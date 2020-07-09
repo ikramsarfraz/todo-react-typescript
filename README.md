@@ -1,10 +1,8 @@
-# quiz-app
+# todo-list-app
 
 A todo-list app, built using React with Typescript.
 
 ## Screenshots
-
-### Quiz-App
 
 ![recordit Todo-List App Gif](http://g.recordit.co/YI5v9CTB8x.gif)
 
